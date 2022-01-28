@@ -5,9 +5,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Action from "./Action";
-import LoginForm from './Login';
-import Navbar from "./Navbar";
+import Action from "./components/Action";
+import LoginForm from './components/Login';
+import Navbar from "./components/Navbar";
 
 let url = window.location.href;
 function getParameters(urlString) {
@@ -21,7 +21,9 @@ function getParameters(urlString) {
   // }
 };
 let urlRetorno = getParameters(url);
-
+if (urlRetorno == null) {
+  console.error("No se ha provisto ninguna URL de retorno")
+}
 function App() {
   return (
     <Router>

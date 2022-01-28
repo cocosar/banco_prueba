@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  color: #3c4858;
 }
 
 header {
@@ -32,6 +33,7 @@ header p {
   text-align: center;
   font-style: italic;
   font-size: 12px;
+  padding: 0 12px;
 }
 
 .login-form {
@@ -74,7 +76,7 @@ header p {
   padding: 10px;
   text-decoration: none;
   border: 1px solid;
-  border-radius: 15px;
+  border-radius: 6px;
   BACKGROUND-COLOR: #521c78 ;
   color: white;
   align-self: center;

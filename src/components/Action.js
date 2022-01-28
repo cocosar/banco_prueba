@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 const Action = ({ url }) => {
-	// console.log(url)
 	const [action, setAction] = useState(null)
 	return (
 		<div>
@@ -30,11 +29,11 @@ const Action = ({ url }) => {
 				<div>
 					<input
 						type="radio"
-						value="Pendiente"
+						value="incorrecto"
 						name="action"
-						onClick={() => setAction("?estado=pendiente")}
+						onClick={() => setAction("?estado=incorrecto")}
 					/>{" "}
-					<p>PENDIENTE</p>
+					<p>INCORRECTO</p>
 				</div>
 				</div>
                 <a className="actionBtn" href={ url + action}>

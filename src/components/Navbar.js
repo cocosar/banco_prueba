@@ -1,4 +1,4 @@
-import logo from './assets/logobanco.png';
+import logo from '../assets/logobanco.png';
 
 const Navbar = () => {
 

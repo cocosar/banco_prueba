@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const LoginForm = () => {
     return (
         <div className="login-form">
-            <h2>Inicio de sesión</h2>
+            <h2>Iniciar sesión</h2>
             <h3>Por favor ingrese sus datos</h3>
             <form>
                 <div>
@@ -11,7 +11,7 @@ const LoginForm = () => {
                     <input />
                 </div>
                 <div>
-                    Password
+                    Contraseña
                     <input
                         type="password"
                         
